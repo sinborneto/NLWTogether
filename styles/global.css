@@ -26,6 +26,7 @@ html{
 }
 
 body{
+    display:flex;
     height: 100vh; /** view height (Ou seja pegando do inicio ao fim da tela para largura width: 100vw;*/
     background: var(--background)
 }
@@ -55,11 +56,17 @@ body, button,input,textarea{
 
 }
 
-/*-------Input and bottons*/
-input, button, .button{
+/*-------Input and buttons*/
+button, .button{
     border-radius: .8rem;
     height: 5rem;
 }
+
+input{
+    border-radius: .8rem;
+    height: 4.8rem;
+}
+
 
 button, .button{
     font-family: 'Poppins';
