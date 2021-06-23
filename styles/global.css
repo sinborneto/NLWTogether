@@ -18,7 +18,7 @@ html{
 
     --grey-dark:#4D5E77;
     --grey-blue:#A1B2CD;
-    --grey-medium:#D3D9E2;
+    --grey-medium:#EAECF2;
     --grey-light:#E5EAF1;
 
     /*1rem=16px (user agent)= 100% (User Agente) o rem e utilizado para ficar mais responsivo*/
@@ -37,6 +37,7 @@ body, button,input,textarea{
     font-family: 'Open Sans', sans-serif;
     /*font-family: 'Poppins', sans-serif;*/
 }
+
 
 .content{
     width:100%;
@@ -89,7 +90,7 @@ button:hover, .button:hover{
     filter:brightness(1.2);
 }
 
-button > img
+button > img,
 .button > img{
     margin-right: 1rem;
     width: 2rem;
@@ -102,6 +103,22 @@ button.outlined,
     color: var(--blue);
     border: .2rem solid var(--blue);
 }
+
+button.red,
+.button.red{
+    background:var(--red);
+    color:var(--white);
+
+}
+
+button.grey,
+.button.grey{
+    background: var(--grey-light);
+    color:var(--grey-dark);
+
+}
+
+/**Header**/
 
 .content header{
     width: 80%;
